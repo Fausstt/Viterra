@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
+    <title>Home</title>
+    <meta name="description"
+        content="Viterra, the agriculture network, connects producers and consumers to supply sustainable, traceable and quality-controlled agricultural products." />
+    <meta name="date" content="2022-07-26T11:32:32.943Z" />
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://www.viterra.ca/.resources/viterra/webresources/img/fav/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://www.viterra.ca/.resources/viterra/webresources/img/fav/favicon-16x16.png" />
+    <link rel="stylesheet" href="./Home_files/viterra_2022-12-09-17-24-13-460_cache.css" media="screen, print" />
+</head>
+
+<body>
+    <div id="app" class="app">
+        <header id="header" class="header header--light ">
+            <div class="main-navigation main-navigation--light">
+                <div class="main-navigation__position">
+                    <div class="main-navigation__wrapper">
+                        <nav class="navbar main-navigation__navbar navbar-light navbar-expand-lg" aria-label="main-nav">
+                            <div class="main-navigation__wrapper">
+                                <div class="main-navigation__top">
+                                    <div class="main-navigation__top-left">
+                                        <a aria-label="Home" href="./index.html"
+                                            class="navbar-brand main-navigation__logo">
+                                            <div style="background-image: url(https://www.viterra.ca/.resources/viterra/webresources/img/viterra_logo_green_purple.svg);"
+                                                class="main-navigation__logo-img"></div>
+                                        </a>
+                                    </div>
+                                    <div class="meta-navigation meta-navigation--light"><a href="./form.html"
+                                            class="meta-navigation__item">
+                                            SIGN IN
+                                        </a> <a href="./form.html" class="meta-navigation__item">
+                                            Contact Us
+                                        </a>
+                                    </div>
+                                    <div class="main-navigation__mobile-menu">
+                                        <button onclick="min_navbar()" type="button"
+                                            class="navbar-toggler main-navigation__toggle collapsed">
+                                            <div id="op"
+                                                style="background-image: url(https://www.viterra.ca/.resources/viterra/webresources/img/menu-burger.svg);"
+                                                class="main-navigation__toggle-icon main-navigation__burger-icon">
+                                            </div>
+                                            <div id="cl"
+                                                style="background-image: url(./Home_files/close_FILL0_wght400_GRAD0_opsz48.png);"
+                                                class="main-navigation__toggle-icon main-navigation__burger-icon">
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="nav-collapse" class="main-navigation__main-items navbar-collapse collapse"
+                                    style="display: none;">
+                                    <ul class="navbar-nav main-navigation__navbar-nav">
+                                        <li class="nav-item main-navigation__item"><a href="./Who We Are.html"
+                                                class="nav-link main-navigation__item-link">
+                                                Who We Are
+                                            </a></li>
+                                        <li class="nav-item main-navigation__item"><a href="./What We Do.html"
+                                                class="nav-link main-navigation__item-link">
+                                                What We Do
+                                            </a></li>
+                                        <li class="nav-item main-navigation__item"><a href="./Sustainability.html"
+                                                class="nav-link main-navigation__item-link">
+                                                Sustainability
+                                            </a></li>
+                                        <li class="nav-item main-navigation__item"><a href="./Media & Insights.html"
+                                                class="nav-link main-navigation__item-link">
+                                                Media &amp; Insights
+                                            </a></li>
+                                        <li class="nav-item main-navigation__item"><a href="./Careers.html"
+                                                class="nav-link main-navigation__item-link">
+                                                Careers
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div id="min_nav" class="sub-navigation">
+                            <div class="sub-navigation__container">
+                                <div class="sub-navigation__wrapper">
+                                    <div class="sub-navigation__content"><a href="./index.html"
+                                            class="sub-navigation__parent-title sub-navigation__item"><b>Home</b></a>
+                                        <a href="./Who We Are.html"
+                                            class="button button--borderless sub-navigation__item sub-navigation__root-item">
+                                            Who We Are
+                                        </a><a href="./What We Do.html"
+                                            class="button button--borderless sub-navigation__item sub-navigation__root-item">
+                                            What We Do
+                                        </a><a href="./Sustainability.html"
+                                            class="button button--borderless sub-navigation__item sub-navigation__root-item">
+                                            Sustainability
+                                        </a><a href="./Media & Insights.html"
+                                            class="button button--borderless sub-navigation__item sub-navigation__root-item">
+                                            Media &amp; Insights
+                                        </a><a href="./Careers.html"
+                                            class="button button--borderless sub-navigation__item sub-navigation__root-item">
+                                            Careers
+                                        </a>
+                                        <div class="sub-navigation__meta-nav">
+                                            <div
+                                                class="meta-navigation meta-navigation--mobile-only meta-navigation--light">
+                                                <a href="./form.html" class="meta-navigation__item">
+                                                    SIGN IN
+                                                </a> <a href="./form.html" class="meta-navigation__item">
+                                                    Contact Us
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                let min_navbar_hek = true
+                window.onload = min_navbar()
+                function min_navbar() {
+                    if (min_navbar_hek) {
+                        document.getElementById('op').style.display = 'block'
+                        document.getElementById('cl').style.display = 'none'
+                        document.getElementById('min_nav').style.display = 'none'
+                        min_navbar_hek = false
+                    } else {
+                        document.getElementById('op').style.display = 'none'
+                        document.getElementById('cl').style.display = 'block'
+                        document.getElementById('min_nav').style.display = 'block'
+                        min_navbar_hek = true
+                    }
+                }
+            </script>
+        </header>
+        <main id="main" class="main">
+            <section class="section stage--breadcrumbs-no-media stage">
+                <div class="stage__overlay-wrapper">
+                    <div class="stage__content">
+                        <div class="section__content">
+                            <h3 class="stage__sub-title">Register</h3>
+                            <h1 class="stage__title">E-Portal Access Agreement</h1>
+                        </div>
+                    </div>
+                    <div class="stage__overlay">
+                        <div class="breadcrumbs">
+                            <ol class="breadcrumbs__list">
+                                <li class="breadcrumbs__list-item"><a href="/en"
+                                        class="breadcrumbs__link button button--link">Home</a></li>
+                                <li class="breadcrumbs__list-item"><a href="/en/myViterra-registration"
+                                        class="breadcrumbs__link button button--link">Register</a></li>
+                                <li class="breadcrumbs__list-item"><span
+                                        class="breadcrumbs__link button button--link button--disabled">E-Portal Access
+                                        Agreement</span></li>
+                            </ol>
+                            <div class="breadcrumbs__back"><a href="/en/myViterra-registration"
+                                    class="button button--borderless button--reverse">
+                                    Back to Register
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text section section--first">
+                <div class="section__container">
+                    <div class="section__content">
+                        <div class="text ">
+                            <p>IMPORTANT: PLEASE CAREFULLY READ THIS ENTIRE AGREEMENT BEFORE YOU USE ANY E-PORTAL
+                                SERVICES. THIS AGREEMENT CONTAINS PROVISIONS THAT LIMIT OR EXCLUDE OUR LIABILITY TO YOU.
+                                BY ACCESSING OR ATTEMPTING TO ACCESS ANY E-PORTAL SERVICES, AND/OR BY ACCEPTING THIS
+                                AGREEMENT, YOU ACKNOWLEDGE AND AGREE THAT YOU HAVE READ AND UNDERSTAND THE TERMS OF THIS
+                                AGREEMENT AND HAVE AGREED TO BE BOUND BY ITS TERMS. IF YOU DO NOT AGREE WITH THE TERMS
+                                OF THIS AGREEMENT, YOU MAY NOT USE, OR ATTEMPT TO USE, ANY E-PORTAL SERVICES.</p>
+                            <p>&nbsp;</p>
+                            <p>1.&nbsp;&nbsp; &nbsp;DEFINITIONS<br>
+                                In this Agreement, the following terms and expressions will have the following meanings:
+                            </p>
+                            <ul>
+                                <li><strong>"Access Device"</strong> means any device allowing you to use or access the
+                                    E-Portal Services including, but not limited to, personal computers and hand-held
+                                    web-enabled devices.</li>
+                                <li><strong>"Account"</strong> means any account you have with Viterra to which you
+                                    request access through the E-Portal Services.</li>
+                                <li><strong>"Common View" </strong>means the ability to view (and, if applicable
+                                    transact business on) accounts of multiple business entities or individuals at the
+                                    same time using the same User ID and Password.</li>
+                                <li><strong>"Electronic Instruction"</strong> means any instruction regarding an Account
+                                    or E-Portal Services that is transmitted through an Access Device.</li>
+                                <li>&nbsp;<strong>"E-Portal Services"</strong> means any products or services, including
+                                    access to Accounts, that are available through those portions of our Web Site that
+                                    require a User ID and Password, as such products or services may change from time to
+                                    time.</li>
+                                <li><strong>"Information Provider"</strong> means a Third Party who provides Viterra
+                                    with content for the Web Site.</li>
+                                <li><strong>&nbsp;"Password"</strong> means your E-Portal Services personal password
+                                    initially assigned to you in connection with the E-Portal Services, as it may be
+                                    amended by you from time to time.</li>
+                                <li><strong>"Third Party"</strong> means any person, entity, governmental authority or
+                                    organization other than Viterra.</li>
+                                <li><strong>"User ID" </strong>means the unique user-number identifier used by you to
+                                    access the E-Portal Services.</li>
+                                <li><strong>"Viterra", "we", "our" or "us" </strong>means Viterra Canada Inc., its
+                                    affiliates, successors and assigns;</li>
+                                <li><strong>&nbsp;"Web Site"</strong> means all web-pages and files posted by Viterra
+                                    under the domains www.viterra.ca, as may be amended from time to time by Viterra;
+                                    and</li>
+                                <li><strong>"you"</strong> or <strong>"your" </strong>means the individual accessing and
+                                    using the Web Site and includes any corporation, partnership or other business
+                                    entity on whose behalf such individual is accessing and using the E-Portal Services.
+                                </li>
+                            </ul>
+                            <p>2.&nbsp;&nbsp; &nbsp;USE OF SERVICES<br>
+                                (a)&nbsp;&nbsp; &nbsp;You may only use the E-Portal Services to access an Account you
+                                are authorized to access and to conduct such transactions as you are authorized to
+                                conduct.<br>
+                                (b)&nbsp;&nbsp; &nbsp;You will not use the E-Portal Services for any illegal or improper
+                                purpose or take any action that could undermine the security or integrity of, or
+                                interrupt the operations of, the E-Portal Services. You agree not to modify, move, add
+                                to, delete or otherwise tamper with any proprietary information contained in the Viterra
+                                Web Site. You also agree not to decompile, reverse engineer, disassemble or unlawfully
+                                use or reproduce any of the software, copyrighted or trademarked material, trade
+                                secrets, or other proprietary information contained in the Web Site.<br>
+                                (c)&nbsp;&nbsp; &nbsp;<br>
+                                You agree to comply with all applicable local, provincial, state, national,
+                                international and foreign laws, treaties and regulations applicable to you in connection
+                                with the use of the E-Portal Services.</p>
+                            <p>3.&nbsp;&nbsp; &nbsp;WARRANTY OF AUTHORITY<br>
+                                If you are accessing the E-Portal Services on behalf of one or more business entities
+                                (such as a corporation or a partnership), you warrant that you have the full authority
+                                of each such business entity to do so. You further warrant that you have the authority
+                                to legally bind such business entities to the provisions of this Agreement.</p>
+                            <p>4.&nbsp;&nbsp; &nbsp;COMMON VIEW<br>
+                                If you have been given Common View rights, you agree to protect the confidentiality of
+                                the personal and/or business information of all of the business entities or individuals
+                                whose Accounts you are able to access pursuant to your Common View rights.</p>
+                            <p>5.&nbsp;&nbsp; &nbsp;USER IDS AND PASSWORDS<br>
+                                (a)&nbsp;&nbsp; &nbsp;Password Confidentiality: You agree to keep your User ID and
+                                Password absolutely confidential and to ensure your Password is never disclosed,
+                                accidentally or otherwise, to anyone at any time. You are solely responsible for the
+                                maintenance and security of your User ID and Password.<br>
+                                (b)&nbsp;&nbsp; &nbsp;Use of User ID and Password: You are responsible for all
+                                consequences and losses relating to the use of your User ID and Password, whether or not
+                                you authorized that use.<br>
+                                If you know or suspect your User ID or Password is being misused, you must as soon as
+                                possible, notify Viterra by telephone as specified in section (c) below, and immediately
+                                change your Password (please see the Viterra Web Site for information on how to change
+                                passwords). You agree that, until we receive such notice and have had a reasonable
+                                opportunity to implement measures to prevent unauthorized use of your User ID or
+                                Password, you will remain liable for all unauthorized use of your User ID or Password
+                                that may occur as a result of authorized or unauthorized use of your User ID and
+                                Password.<br>
+                                Once we have received proper notice from you and we have had a reasonable opportunity to
+                                implement measures to prevent unauthorized use of your User ID and Password, you will no
+                                longer be responsible for unauthorized use of your User ID or Password from that point
+                                forward. You understand and acknowledge that Viterra shall incur no liability whatsoever
+                                for any consequences and/or losses that occur through your use or misuse of your User ID
+                                and Password.<br>
+                                (c)&nbsp;&nbsp; &nbsp;<br>
+                                Notice:<br>
+                                You may notify Viterra by phone by calling the Customer Portal Help Line toll free at
+                                1-866-647-4090 during its regular hours of service. Hours of service are 8:00 am to 4:30
+                                pm (Regina, Saskatchewan Time) from Monday to Friday. Viterra reserves the right to ask
+                                validating questions prior to accepting any instructions by telephone. Viterra does not
+                                accept any liability for failing to ask validating questions.</p>
+                            <p>6.&nbsp;&nbsp; &nbsp;ELECTRONIC INSTRUCTIONS<br>
+                                Viterra may treat your Electronic Instructions as documents written and signed by you.
+                                You acknowledge that an Electronic Instruction is final and you cannot object to it
+                                later. Viterra may, at its sole discretion, decline to act on Electronic Instructions
+                                and shall not incur any liability for failing to do so. Viterra may maintain a database
+                                of your Electronic Instructions.</p>
+                            <p>7.&nbsp;&nbsp; &nbsp;RECORDS<br>
+                                Viterra's records of your Electronic Instructions will be conclusive and binding on you
+                                in any disputes, including any legal proceedings, as the best evidence of your
+                                Electronic Instructions in absence of clear proof that Viterra's records are wrong or
+                                incomplete.</p>
+                            <p>8.&nbsp;&nbsp; &nbsp;SECURITY<br>
+                                Viterra is committed to keeping your confidential information safe and has in place
+                                reasonable measures to protect the security of the E-Portal Services. In order to
+                                protect you and your data, Viterra may suspend your use of the Web Site or any Account,
+                                without notice, pending an investigation, if Viterra suspects that a breach of security
+                                has occurred.<br>
+                                You acknowledge that ensuring the security of your information (including personal,
+                                financial and business information) requires you to exercise safe computing practices.
+                                These safe computing practices are in addition to your responsibility to maintain the
+                                confidentiality of your User ID and Password. You must properly log off, disconnect and
+                                close your Internet browser after each session in which the E-Portal Services have been
+                                accessed or used.<br>
+                                The Access Device you use to access the E-Portal Services may be vulnerable to viruses
+                                or online attacks that seek to intercept sensitive information that you provide through
+                                the Internet. To reduce the chances of harm, it is your responsibility to ensure that
+                                any Access Device you use to access the E-Portal Services has an up-to-date anti-virus
+                                program, anti-spyware program and firewall.<br>
+                                Viterra does not assume any liability or responsibility whatsoever for computer viruses
+                                or other destructive programs received during the electronic transmission of content
+                                from the E-Portal Services or any sites accessed through links provided through the
+                                E-Portal Services.</p>
+                            <p>9.&nbsp;&nbsp; &nbsp;PRIVACY<br>
+                                By accessing and using the E-Portal Services, you acknowledge and accept Viterra's
+                                Privacy Policy, as amended from time to time.</p>
+                            <p>10.&nbsp;&nbsp; &nbsp;CONTENT<br>
+                                Viterra offers the E-Portal Services in order to improve the accessibility of
+                                information to its customers and other Third Parties. The E-Portal Services are not
+                                intended to provide management, financial, technical or other advice and they are not
+                                intended to be used as a substitute for specific professional advice. You assume all
+                                responsibility for your use or non-use of the information you obtain through the
+                                E-Portal Services and any information you may access through the Viterra Web Site, and
+                                you assume all responsibility for any action or inaction you may perform or refrain from
+                                performing based on the information you obtain through the E-Portal Services and through
+                                the Viterra Web Site.</p>
+                            <p>11.&nbsp;&nbsp; &nbsp;INTELLECTUAL PROPERTY<br>
+                                The content of the E-Portal Services may be protected by copyright. You may not copy,
+                                reproduce, publish, distribute, modify or perform any content protected by copyright
+                                without obtaining permission of the copyright owner. You are granted a limited license
+                                to view the content contained in the E-Portal Services via an electronic display for
+                                your personal (including your business) purposes only. Any other use or distribution of
+                                the content, in whole or in part, is prohibited without the written consent of the
+                                author. Viterra and its Information Providers and licensors reserve all intellectual
+                                property rights to content included within the E-Portal Services.</p>
+                            <p>12.&nbsp;&nbsp; &nbsp;LIMITATIONS OF LIABILITY<br>
+                                (a)&nbsp;&nbsp; &nbsp;In addition to any other limitations on Viterra's liability
+                                contained elsewhere in this Agreement, Viterra's liability for loss or damages arising
+                                under this Agreement or in connection with the E-Portal Services will be limited in the
+                                aggregate to direct damages arising out of the failure of Viterra's employees to take
+                                commercially reasonable steps to comply with Viterra's obligations under this Agreement.
+                                Viterra's aggregate liability for any such events is limited to $50.00 (CDN).<br>
+                                (b)&nbsp;&nbsp; &nbsp;<br>
+                                Under no circumstances shall Viterra (or its directors, officers, employees, agents,
+                                representatives, affiliates and Information Providers) be liable to you or any Third
+                                Party:<br>
+                                (i)&nbsp;&nbsp; &nbsp;for any direct (except as set out in 12(a) above), indirect,
+                                special or consequential damages, or for any loss of profit, loss of revenue, loss of
+                                reputation or loss of business opportunity, that result in any way from your access or
+                                use of the E-Portal Services or from your use or non-use of the information you obtain
+                                through the E-Portal Services and any information you may access through the Viterra Web
+                                Site, or from any action or inaction you may perform or refrain from performing based on
+                                the information you obtain through the content of the E-Portal Services and through the
+                                content of the Viterra Web Site;<br>
+                                (ii)&nbsp;&nbsp; &nbsp;for any losses, damages or expenses arising out of your use or
+                                non-use of, or reliance or non-reliance on, any E-Portal Services or access to the
+                                Internet or any part thereof;<br>
+                                (iii)&nbsp;&nbsp; &nbsp;for any losses, damages or expenses (including legal fees)
+                                arising out of any allegation, claim, suit or other proceeding based on a contention
+                                that the use of the E-Portal Services by you or a Third Party infringes the intellectual
+                                property rights or contractual rights of any Third Party; and<br>
+                                (iv)&nbsp;&nbsp; &nbsp;for any losses, damages or expenses arising due to events beyond
+                                Viterra's control.<br>
+                                (c)&nbsp;&nbsp; &nbsp;The limitations and exclusions of liability described in this
+                                Agreement shall apply regardless of whether the cause of action is in contract
+                                (including, without limitation, breach of a fundamental term) or tort (including,
+                                without limitation, negligence).<br>
+                                (d)&nbsp;&nbsp; &nbsp;<br>
+                                The limitations and exclusions of liability contained in this Agreement shall apply to
+                                the farthest extent allowed by law.</p>
+                            <p>13.&nbsp;&nbsp; &nbsp;WARRANTY DISCLAIMER<br>
+                                To the fullest extent permitted by law, Viterra provides the E-Portal Services on an "as
+                                is, where is" basis and does not make any express or implied warranties,
+                                representations, endorsements or conditions with respect to the E-Portal Services or to
+                                any content or information contained in or provided by the E-Portal Services. This
+                                includes, without limitation, warranties as to merchantability, operation,
+                                non-infringement, usefulness, completeness, accuracy, currentness, reliability or
+                                fitness for a particular purpose.</p>
+                            <p>Further, to the fullest extent permitted by law, Viterra does not represent or warrant:
+                            </p>
+                            <p>that the E-Portal Services will be available and meet your requirements;<br>
+                                that access to the E-Portal Services will be uninterrupted;<br>
+                                that there will be no delays, failures, errors or omissions with the E-Portal
+                                Services<br>
+                                that there will be no loss of transmitted information from or through the E-Portal
+                                Services;<br>
+                                that no viruses or other contaminating or destructive properties will be transmitted by
+                                or through the use of the E-Portal Services; or<br>
+                                that no damage will occur to your computer system by or through the use of the E-Portal
+                                Services.<br>
+                                You have sole responsibility for adequate protection and backup of data and/or Access
+                                Devices and to take reasonable and appropriate precautions to scan for computer viruses
+                                or other destructive properties.</p>
+                            <p>14.&nbsp;&nbsp; &nbsp;FORWARD-LOOKING STATEMENTS<br>
+                                The E-Portal Services may contain forward-looking statements and reflect Viterra's
+                                expectations regarding future results of operations, financial conditions and
+                                achievements. All statements included in the E-Portal Services that address activities,
+                                events or developments that Viterra or its management expect or anticipate will or may
+                                occur in the future, the growth of the business and operation, competitive strengths,
+                                strategic initiatives, planned capital expenditures, plans and references to future
+                                operations and results of Viterra and such matters, are forward-looking statements.
+                                Forward-looking statements involve known and unknown risks, uncertainties and other
+                                factors that may cause the actual results, performance and achievements of Viterra to be
+                                materially different from any future results, performance and achievements expressed or
+                                implied by those forward-looking statements. Many of these risks are beyond the control
+                                of Viterra. All forward-looking statements appearing in the E-Portal Services are
+                                qualified by this cautionary statement, and there can be no assurance that the
+                                developments or results anticipated by Viterra will be realized, or even substantially
+                                realized, that such results will have the expected consequences for, or effects on,
+                                Viterra. Subject to applicable security law requirements, Viterra disclaims any
+                                intention or obligation to update or revise any forward-looking statements, whether as a
+                                result of new information, future events or otherwise.</p>
+                            <p>15.&nbsp;&nbsp; &nbsp;TRADEMARKS<br>
+                                Certain names, words, titles, phrases, logos, icons, graphics or designs in the pages of
+                                the E-Portal Services may constitute trade names, trademarks or service marks of Viterra
+                                or its Information Providers. The display of trademarks on pages of the E-Portal
+                                Services does not imply that a license of any kind has been granted to you. You may not
+                                use the trademarks, logos and service marks ("Marks") for any purpose including, but not
+                                limited to, use as hyperlinks, hot links, or meta tags in other pages or Internet sites
+                                without the written permission of the owner of the Marks, whether that is Viterra or one
+                                of its Information Providers.</p>
+                            <p>16.&nbsp;&nbsp; &nbsp;EXTERNAL LINKS<br>
+                                Links to websites provided as part of the E-Portal Services are meant for convenience
+                                only. Viterra is not responsible for the content, accuracy or opinions expressed in such
+                                websites and Viterra does not investigate monitor or check the accuracy or completeness
+                                of Third Party websites. Inclusion of any linked website does no imply approval or
+                                endorsement by Viterra of the linked websites or contents or information contained in
+                                such websites. Viterra makes no representations whatsoever about any other website or
+                                information that you may access through the Viterra Web Site. Viterra does not assume
+                                any liability or responsibility whatsoever for the operation of, or content at, any of
+                                the linked resources, nor for any of the interpretations, comments or opinions expressed
+                                therein.</p>
+                            <p>17.&nbsp;&nbsp; &nbsp;ARBITRATION<br>
+                                Any claim, dispute or controversy (whether in contract or tort, pursuant to statute or
+                                regulation, or otherwise, and whether pre-existing, present or future) arising out of or
+                                relating to this Agreement, or any E-Portal Services, shall be referred to and
+                                determined by binding arbitration (to the exclusion of the courts). Such arbitration
+                                shall be referred to a single arbiter pursuant to The Arbitration Act, 1992
+                                (Saskatchewan). The arbitration shall take place in Regina, Saskatchewan, Canada. The
+                                decision of the arbiter shall be final and binding upon the parties. Each party shall
+                                bear its own legal expenses and costs of arbitration, including attorneys' fees. The
+                                costs and expenses of the arbitration proceedings, including applicable arbitration fees
+                                and expenses, shall be borne equally by the parties or as otherwise determined by the
+                                arbitrator. You agree to waive any right you may have to commence or participate in any
+                                class action against Viterra or any of its suppliers related to this Agreement or any
+                                E-Portal Services and, where applicable, you agree to opt-out of any class-action
+                                proceedings against Viterra.</p>
+                            <p>18.&nbsp;&nbsp; &nbsp;GOVERNING LAW<br>
+                                This Agreement shall be treated as though it were executed and performed in the Province
+                                of Saskatchewan, Canada, and shall be governed by, construed and enforced in accordance
+                                with the laws of the Province of Saskatchewan and the federal laws of Canada applicable
+                                therein. Without limiting in any way the application of Section 17, you irrevocably
+                                submit and attorn to the exclusive jurisdiction of the courts of the Province of
+                                Saskatchewan for the determination of any matters under this Agreement.</p>
+                            <p>19.&nbsp;&nbsp; &nbsp;CHANGES TO AGREEMENT<br>
+                                Viterra may change the terms and conditions of this Agreement from time to time in any
+                                one or more of the following ways:</p>
+                            <p>a notice displayed on the Viterra Web Site and/or on the login screens accessed when
+                                using the E-Portal Services; and/or<br>
+                                by requiring you to electronically accept the additional or amended terms and conditions
+                                of this Agreement at any time.<br>
+                                If you continue to use any of the E-Portal Services after the effective date of any
+                                additional or amended terms or conditions to this Agreement, then you will be deemed to
+                                have accepted such additional terms or conditions.</p>
+                            <p>20.&nbsp;&nbsp; &nbsp;TERMINATION<br>
+                                Viterra reserves the right, in its sole discretion, to suspend or terminate any E-Portal
+                                Services or your use of any E-Portal Services at any time and for any reason.</p>
+                            <p>21.&nbsp;&nbsp; &nbsp;SEVERABILITY<br>
+                                Any provision of this Agreement which is, deemed to be, or becomes void, illegal,
+                                invalid or unenforceable shall be severable from this Agreement and shall not impair the
+                                remaining provisions of this Agreement.</p>
+                            <p>&nbsp;</p>
+                            <p>BY CLICKING "I AGREE", YOU AGREE TO BE LEGALLY BOUND BY THE TERMS AND CONDITIONS OF THIS
+                                AGREEMENT.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer section section--secondary section--edge-tr ">
+            <div class="section__container">
+                <nav aria-label="footer-nav" class="footer-nav">
+                    <div class="footer-nav__row">
+                        <div class="footer-nav__links">
+                            <ul class="footer-nav__link-items">
+                                <li class="footer-nav__link-item"><a href="./agreement.html" title="Privacy"
+                                        class="footer-nav__link">
+                                        Privacy
+                                    </a></li>
+                                <li class="footer-nav__link-item"><a href="./Careers.html" title="Careers"
+                                        class="footer-nav__link">
+                                        Careers
+                                    </a></li>
+                                <li class="footer-nav__link-item"><a href="./form.html" title="Register"
+                                        class="footer-nav__link">
+                                        Register
+                                    </a></li>
+                                <li class="footer-nav__link-item"><a href=./form.html title="Contact Us"
+                                        class="footer-nav__link">
+                                        Contact Us
+                                    </a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-nav__social-links">
+                            <div class="footer-nav__social-links-wrapper">
+                                <ul class="footer-nav__social-links-items">
+                                    <li class="footer-nav__social-link"><a href="./form.html" aria-label="twitter"><svg
+                                                class="icon footer-nav__social-icon">
+                                                <use
+                                                    xlink:href="/.resources/viterra/webresources/img/sprite.svg#twitter">
+                                                </use>
+                                            </svg></a></li>
+                                    <li class="footer-nav__social-link"><a href="./form.html" aria-label="facebook"><svg
+                                                class="icon footer-nav__social-icon">
+                                                <use
+                                                    xlink:href="/.resources/viterra/webresources/img/sprite.svg#facebook">
+                                                </use>
+                                            </svg></a></li>
+                                    <li class="footer-nav__social-link"><a href="./form.html" aria-label="linkedin"><svg
+                                                class="icon footer-nav__social-icon">
+                                                <use
+                                                    xlink:href="/.resources/viterra/webresources/img/sprite.svg#linkedin">
+                                                </use>
+                                            </svg></a></li>
+                                    <li class="footer-nav__social-link"><a href="./form.html"
+                                            aria-label="instagram"><svg class="icon footer-nav__social-icon">
+                                                <use
+                                                    xlink:href="/.resources/viterra/webresources/img/sprite.svg#instagram">
+                                                </use>
+                                            </svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer-nav__copyright">©Viterra&nbsp;2022</p>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
